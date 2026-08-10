@@ -138,7 +138,7 @@ We recommend only installing base, and use web spice for most spice operations. 
 
 If you install ISIS into an environment, it can be difficult to install other packages, largely because of how many dependencies ISIS has. If you need to access ISIS apps but also want to use tools/packages in other environments, there are some options:
 
-1. Set your PATH to the ISIS install folder, e.g. export PATH=$PATH:$ISISROOT/bin/. Note the append to the end, so it cannot conflict with other entries in PATH.
+1. Add the ISIS install folder to your path, e.g. `export PATH=$PATH:$ISISROOT/bin/`. Note the append to the end, so it cannot conflict with other entries in PATH.
 2. [Nested Environments](https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html#nested-activation)
 
 ## Environment Variables
